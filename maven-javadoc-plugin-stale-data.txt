@@ -1,0 +1,126 @@
+@options
+@argfile
+-classpath
+'C:/Users/lenovo/BinaryCalculatorWebapp/target/classes;C:/Users/lenovo/BinaryCalculatorWebapp/target/test-classes;C:/Users/lenovo/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.1.2.RELEASE/spring-boot-starter-web-2.1.2.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/springframework/boot/spring-boot-starter/2.1.2.RELEASE/spring-boot-starter-2.1.2.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.1.2.RELEASE/spring-boot-starter-logging-2.1.2.RELEASE.jar;C:/Users/lenovo/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar;C:/Users/lenovo/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar;C:/Users/lenovo/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.11.1/log4j-to-slf4j-2.11.1.jar;C:/Users/lenovo/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1.jar;C:/Users/lenovo/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar;C:/Users/lenovo/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar;C:/Users/lenovo/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar;C:/Users/lenovo/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.1.2.RELEASE/spring-boot-starter-json-2.1.2.RELEASE.jar;C:/Users/lenovo/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar;C:/Users/lenovo/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar;C:/Users/lenovo/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar;C:/Users/lenovo/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.8/jackson-datatype-jdk8-2.9.8.jar;C:/Users/lenovo/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.8/jackson-datatype-jsr310-2.9.8.jar;C:/Users/lenovo/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.8/jackson-module-parameter-names-2.9.8.jar;C:/Users/lenovo/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.1.2.RELEASE/spring-boot-starter-tomcat-2.1.2.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.14/tomcat-embed-core-9.0.14.jar;C:/Users/lenovo/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.14/tomcat-embed-el-9.0.14.jar;C:/Users/lenovo/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.14/tomcat-embed-websocket-9.0.14.jar;C:/Users/lenovo/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.14.Final/hibernate-validator-6.0.14.Final.jar;C:/Users/lenovo/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar;C:/Users/lenovo/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar;C:/Users/lenovo/.m2/repository/com/fasterxml/classmate/1.4.0/classmate-1.4.0.jar;C:/Users/lenovo/.m2/repository/org/springframework/spring-web/5.1.4.RELEASE/spring-web-5.1.4.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/springframework/spring-beans/5.1.4.RELEASE/spring-beans-5.1.4.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/springframework/spring-webmvc/5.1.4.RELEASE/spring-webmvc-5.1.4.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/springframework/spring-aop/5.1.4.RELEASE/spring-aop-5.1.4.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/springframework/spring-expression/5.1.4.RELEASE/spring-expression-5.1.4.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/2.1.2.RELEASE/spring-boot-starter-thymeleaf-2.1.2.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/thymeleaf/thymeleaf/3.0.11.RELEASE/thymeleaf-3.0.11.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar;C:/Users/lenovo/.m2/repository/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.2.RELEASE/thymeleaf-extras-java8time-3.0.2.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.1.2.RELEASE/spring-boot-starter-test-2.1.2.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/springframework/boot/spring-boot-test/2.1.2.RELEASE/spring-boot-test-2.1.2.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.1.2.RELEASE/spring-boot-test-autoconfigure-2.1.2.RELEASE.jar;C:/Users/lenovo/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar;C:/Users/lenovo/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar;C:/Users/lenovo/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar;C:/Users/lenovo/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar;C:/Users/lenovo/.m2/repository/junit/junit/4.12/junit-4.12.jar;C:/Users/lenovo/.m2/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar;C:/Users/lenovo/.m2/repository/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar;C:/Users/lenovo/.m2/repository/net/bytebuddy/byte-buddy/1.9.7/byte-buddy-1.9.7.jar;C:/Users/lenovo/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.7/byte-buddy-agent-1.9.7.jar;C:/Users/lenovo/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar;C:/Users/lenovo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar;C:/Users/lenovo/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar;C:/Users/lenovo/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar;C:/Users/lenovo/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar;C:/Users/lenovo/.m2/repository/org/springframework/spring-core/5.1.4.RELEASE/spring-core-5.1.4.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/springframework/spring-jcl/5.1.4.RELEASE/spring-jcl-5.1.4.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/springframework/spring-test/5.1.4.RELEASE/spring-test-5.1.4.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/xmlunit/xmlunit-core/2.6.2/xmlunit-core-2.6.2.jar;C:/Users/lenovo/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar;C:/Users/lenovo/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar;C:/Users/lenovo/.m2/repository/org/springframework/boot/spring-boot-devtools/2.1.2.RELEASE/spring-boot-devtools-2.1.2.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/springframework/boot/spring-boot/2.1.2.RELEASE/spring-boot-2.1.2.RELEASE.jar;C:/Users/lenovo/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/lenovo/BinaryCalculatorWebapp/src/main/java/com.ontariotechu.sofe3980U'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/lenovo/BinaryCalculatorWebapp/target/site/testapidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'BinaryCalculatorWebapp Maven Webapp 1.0.0 Test API'
+-link
+'../apidocs'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/lenovo/BinaryCalculatorWebapp/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'BinaryCalculatorWebapp Maven Webapp 1.0.0 Test API'
+'C:/Users/lenovo/BinaryCalculatorWebapp/src/main/java/com.ontariotechu.sofe3980U/APIResult.java'
+'C:/Users/lenovo/BinaryCalculatorWebapp/src/main/java/com.ontariotechu.sofe3980U/Application.java'
+'C:/Users/lenovo/BinaryCalculatorWebapp/src/main/java/com.ontariotechu.sofe3980U/Binary.java'
+'C:/Users/lenovo/BinaryCalculatorWebapp/src/main/java/com.ontariotechu.sofe3980U/BinaryAPIController.java'
+'C:/Users/lenovo/BinaryCalculatorWebapp/src/main/java/com.ontariotechu.sofe3980U/BinaryAPIResult.java'
+'C:/Users/lenovo/BinaryCalculatorWebapp/src/main/java/com.ontariotechu.sofe3980U/BinaryController.java'
+'C:/Users/lenovo/BinaryCalculatorWebapp/src/main/java/com.ontariotechu.sofe3980U/HelloAPIController.java'
+'C:/Users/lenovo/BinaryCalculatorWebapp/src/main/java/com.ontariotechu.sofe3980U/HelloController.java'
+C:\Users\lenovo\BinaryCalculatorWebapp\target\classes = 1738723417902
+C:\Users\lenovo\BinaryCalculatorWebapp\target\test-classes = 1738723419792
+C:\Users\lenovo\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.1.2.RELEASE\spring-boot-starter-web-2.1.2.RELEASE.jar = 1738710158767
+C:\Users\lenovo\.m2\repository\org\springframework\boot\spring-boot-starter\2.1.2.RELEASE\spring-boot-starter-2.1.2.RELEASE.jar = 1738710158863
+C:\Users\lenovo\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.1.2.RELEASE\spring-boot-starter-logging-2.1.2.RELEASE.jar = 1738710158804
+C:\Users\lenovo\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar = 1738710158980
+C:\Users\lenovo\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar = 1738710159061
+C:\Users\lenovo\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.11.1\log4j-to-slf4j-2.11.1.jar = 1738710159011
+C:\Users\lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar = 1738710158860
+C:\Users\lenovo\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar = 1738710158896
+C:\Users\lenovo\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar = 1738710158891
+C:\Users\lenovo\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar = 1738710159073
+C:\Users\lenovo\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.1.2.RELEASE\spring-boot-starter-json-2.1.2.RELEASE.jar = 1738710158927
+C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar = 1738710159109
+C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar = 1738710159041
+C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar = 1738710159168
+C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.8\jackson-datatype-jdk8-2.9.8.jar = 1738710159110
+C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.8\jackson-datatype-jsr310-2.9.8.jar = 1738710159175
+C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.8\jackson-module-parameter-names-2.9.8.jar = 1738710159152
+C:\Users\lenovo\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.1.2.RELEASE\spring-boot-starter-tomcat-2.1.2.RELEASE.jar = 1738710159134
+C:\Users\lenovo\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.14\tomcat-embed-core-9.0.14.jar = 1738710159456
+C:\Users\lenovo\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.14\tomcat-embed-el-9.0.14.jar = 1738710159236
+C:\Users\lenovo\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.14\tomcat-embed-websocket-9.0.14.jar = 1738710159187
+C:\Users\lenovo\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.14.Final\hibernate-validator-6.0.14.Final.jar = 1738710159730
+C:\Users\lenovo\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar = 1738710159211
+C:\Users\lenovo\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar = 1738710159276
+C:\Users\lenovo\.m2\repository\com\fasterxml\classmate\1.4.0\classmate-1.4.0.jar = 1738710159258
+C:\Users\lenovo\.m2\repository\org\springframework\spring-web\5.1.4.RELEASE\spring-web-5.1.4.RELEASE.jar = 1738710159883
+C:\Users\lenovo\.m2\repository\org\springframework\spring-beans\5.1.4.RELEASE\spring-beans-5.1.4.RELEASE.jar = 1738710159365
+C:\Users\lenovo\.m2\repository\org\springframework\spring-webmvc\5.1.4.RELEASE\spring-webmvc-5.1.4.RELEASE.jar = 1738710159724
+C:\Users\lenovo\.m2\repository\org\springframework\spring-aop\5.1.4.RELEASE\spring-aop-5.1.4.RELEASE.jar = 1738710159456
+C:\Users\lenovo\.m2\repository\org\springframework\spring-context\5.1.4.RELEASE\spring-context-5.1.4.RELEASE.jar = 1738710159610
+C:\Users\lenovo\.m2\repository\org\springframework\spring-expression\5.1.4.RELEASE\spring-expression-5.1.4.RELEASE.jar = 1738710159513
+C:\Users\lenovo\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\2.1.2.RELEASE\spring-boot-starter-thymeleaf-2.1.2.RELEASE.jar = 1738710159569
+C:\Users\lenovo\.m2\repository\org\thymeleaf\thymeleaf-spring5\3.0.11.RELEASE\thymeleaf-spring5-3.0.11.RELEASE.jar = 1738710159637
+C:\Users\lenovo\.m2\repository\org\thymeleaf\thymeleaf\3.0.11.RELEASE\thymeleaf-3.0.11.RELEASE.jar = 1738710159693
+C:\Users\lenovo\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar = 1738710159680
+C:\Users\lenovo\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar = 1738710159706
+C:\Users\lenovo\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar = 1738710159718
+C:\Users\lenovo\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-java8time\3.0.2.RELEASE\thymeleaf-extras-java8time-3.0.2.RELEASE.jar = 1738710159805
+C:\Users\lenovo\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.1.2.RELEASE\spring-boot-starter-test-2.1.2.RELEASE.jar = 1738710159741
+C:\Users\lenovo\.m2\repository\org\springframework\boot\spring-boot-test\2.1.2.RELEASE\spring-boot-test-2.1.2.RELEASE.jar = 1738710159764
+C:\Users\lenovo\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.1.2.RELEASE\spring-boot-test-autoconfigure-2.1.2.RELEASE.jar = 1738710159768
+C:\Users\lenovo\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar = 1738710159804
+C:\Users\lenovo\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar = 1738710159791
+C:\Users\lenovo\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar = 1738710159791
+C:\Users\lenovo\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar = 1738710159818
+C:\Users\lenovo\.m2\repository\junit\junit\4.12\junit-4.12.jar = 1736874402592
+C:\Users\lenovo\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar = 1738710159988
+C:\Users\lenovo\.m2\repository\org\mockito\mockito-core\2.23.4\mockito-core-2.23.4.jar = 1738710159934
+C:\Users\lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.9.7\byte-buddy-1.9.7.jar = 1738710160341
+C:\Users\lenovo\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.7\byte-buddy-agent-1.9.7.jar = 1738710159851
+C:\Users\lenovo\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar = 1738710159875
+C:\Users\lenovo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar = 1736864210671
+C:\Users\lenovo\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar = 1738710159900
+C:\Users\lenovo\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar = 1738710159907
+C:\Users\lenovo\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar = 1738710159978
+C:\Users\lenovo\.m2\repository\org\springframework\spring-core\5.1.4.RELEASE\spring-core-5.1.4.RELEASE.jar = 1738710160262
+C:\Users\lenovo\.m2\repository\org\springframework\spring-jcl\5.1.4.RELEASE\spring-jcl-5.1.4.RELEASE.jar = 1738710159966
+C:\Users\lenovo\.m2\repository\org\springframework\spring-test\5.1.4.RELEASE\spring-test-5.1.4.RELEASE.jar = 1738710160115
+C:\Users\lenovo\.m2\repository\org\xmlunit\xmlunit-core\2.6.2\xmlunit-core-2.6.2.jar = 1738710160016
+C:\Users\lenovo\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar = 1738710160025
+C:\Users\lenovo\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar = 1738710160045
+C:\Users\lenovo\.m2\repository\org\springframework\boot\spring-boot-devtools\2.1.2.RELEASE\spring-boot-devtools-2.1.2.RELEASE.jar = 1738710160060
+C:\Users\lenovo\.m2\repository\org\springframework\boot\spring-boot\2.1.2.RELEASE\spring-boot-2.1.2.RELEASE.jar = 1738710160110
+C:\Users\lenovo\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.1.2.RELEASE\spring-boot-autoconfigure-2.1.2.RELEASE.jar = 1738710160129
+C:\Users\lenovo\BinaryCalculatorWebapp\src\main\java\com.ontariotechu.sofe3980U\APIResult.java = 1738711488237
+C:\Users\lenovo\BinaryCalculatorWebapp\src\main\java\com.ontariotechu.sofe3980U\Application.java = 1738709900581
+C:\Users\lenovo\BinaryCalculatorWebapp\src\main\java\com.ontariotechu.sofe3980U\Binary.java = 1738714833165
+C:\Users\lenovo\BinaryCalculatorWebapp\src\main\java\com.ontariotechu.sofe3980U\BinaryAPIController.java = 1738716521460
+C:\Users\lenovo\BinaryCalculatorWebapp\src\main\java\com.ontariotechu.sofe3980U\BinaryAPIResult.java = 1738711954761
+C:\Users\lenovo\BinaryCalculatorWebapp\src\main\java\com.ontariotechu.sofe3980U\BinaryController.java = 1738722436631
+C:\Users\lenovo\BinaryCalculatorWebapp\src\main\java\com.ontariotechu.sofe3980U\HelloAPIController.java = 1738711479337
+C:\Users\lenovo\BinaryCalculatorWebapp\src\main\java\com.ontariotechu.sofe3980U\HelloController.java = 1738709893288
+C:\Users\lenovo\BinaryCalculatorWebapp\src\main\java\com.ontariotechu.sofe3980U = 1738712023103
+C:\Users\lenovo\BinaryCalculatorWebapp\target\site\testapidocs\allclasses-index.html = 1738723605543
+C:\Users\lenovo\BinaryCalculatorWebapp\target\site\testapidocs\allpackages-index.html = 1738723605549
+C:\Users\lenovo\BinaryCalculatorWebapp\target\site\testapidocs\element-list = 1738723605283
+C:\Users\lenovo\BinaryCalculatorWebapp\target\site\testapidocs\help-doc.html = 1738723605640
+C:\Users\lenovo\BinaryCalculatorWebapp\target\site\testapidocs\index-all.html = 1738723605596
+C:\Users\lenovo\BinaryCalculatorWebapp\target\site\testapidocs\index.html = 1738723605604
+C:\Users\lenovo\BinaryCalculatorWebapp\target\site\testapidocs\member-search-index.js = 1738723605557
+C:\Users\lenovo\BinaryCalculatorWebapp\target\site\testapidocs\module-search-index.js = 1738723605552
+C:\Users\lenovo\BinaryCalculatorWebapp\target\site\testapidocs\overview-tree.html = 1738723605497
+C:\Users\lenovo\BinaryCalculatorWebapp\target\site\testapidocs\package-search-index.js = 1738723605553
+C:\Users\lenovo\BinaryCalculatorWebapp\target\site\testapidocs\search.html = 1738723605600
+C:\Users\lenovo\BinaryCalculatorWebapp\target\site\testapidocs\tag-search-index.js = 1738723605559
+C:\Users\lenovo\BinaryCalculatorWebapp\target\site\testapidocs\type-search-index.js = 1738723605556
